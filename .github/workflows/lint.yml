@@ -13,6 +13,8 @@ jobs:
         with:
           node-version: 18
 
+      - run: npm init
+      - run: npm install --global
       - uses: stefanoeb/eslint-action@1.0.2
         with:
-          files: src/
+          files: ./
