@@ -1,0 +1,10 @@
+name: "Exercice 5"
+run-name: ${{github.actor}} Exercice 5
+on: 
+  push:
+
+jobs:
+  exercice5: 
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "```html <img src='https://cataas.com/cat'></img> ```" >> README.md
