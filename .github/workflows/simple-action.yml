@@ -1,0 +1,10 @@
+name: "Exercice 1"
+run-name: ${{github.actor}} Exercice 1
+on: 
+  push:
+
+jobs:
+  exercice1: 
+    runs-on: ubuntu-latest
+    steps:
+      - run: "Hello, GitHub Actions!"
