@@ -14,4 +14,4 @@ jobs:
           node-version: 18
 
       - run: npm install --global eslint
-      - run: eslint . --ext .js
+      - run: eslint . -c .js
