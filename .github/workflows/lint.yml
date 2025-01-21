@@ -9,8 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: stefanoeb/eslint-action@1.0.2
-          with:
-            files: ./
+        with:
+          files: ./
       - name: Install modules
         run: yarn
       - name: Run ESLint
