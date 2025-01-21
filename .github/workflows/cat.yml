@@ -7,4 +7,4 @@ jobs:
   exercice5: 
     runs-on: ubuntu-latest
     steps: 
-      - run: echo "```html <img src='https://cataas.com/cat'></img> ```" >> README.md
+      - run: echo https://cataas.com/cat > README.md
