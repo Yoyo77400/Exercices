@@ -1,0 +1,14 @@
+name: "Exercice 2"
+run-name: ${{github.actor}} Exercice 2
+on: 
+  push:
+
+jobs:
+  exercice1: 
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install modules
+        run: yarn
+      - name: Run ESLint
+        run: eslint . --ext .js,.jsx,.ts,.tsx
